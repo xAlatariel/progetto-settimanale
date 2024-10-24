@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/reset.css">
     <link rel="stylesheet" href="benchmark.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,25 +20,41 @@
     />
   </head>
   <body>
-    <img class="logo" src="/assets/epicode_logo.png" alt="epicode_logo">
-    <div class="main">
-    <div class="countdown-container">
-        <svg class="progress-ring" width="120" height="120">
-            <circle class="progress-ring__circle" stroke="cyan" stroke-width="8" fill="transparent" r="54" cx="60" cy="60"/>
-        </svg>
-        <div class="countdown-text">
+    <header>
+      <div>
+        <img class="logo" src="/assets/epicode_logo.png" alt="epicode_logo" />
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="countdown-container">
+          <svg class="progress-ring" width="120" height="120">
+            <circle
+              class="progress-ring__circle"
+              stroke="cyan"
+              stroke-width="8"
+              fill="transparent"
+              r="54"
+              cx="60"
+              cy="60"
+            />
+          </svg>
+          <div class="countdown-text">
             <div id="seconds">SECONDS</div>
             <div id="timer">60</div>
             <div id="remaining">REMAINING</div>
+          </div>
         </div>
+        
       </div>
-      <div class="buttonContainer">
-      </div>
-    
-        <footer>
-      </div>
+    </main>
+    <section>
+      <div class="buttonContainer"></div>
+    </section>
+
+    <footer>
       <div class="endPage"></div>
-      </footer>
+    </footer>
 
     <script src="benchmark.js"></script>
   </body>
