@@ -1,0 +1,113 @@
+body {
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+ 
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 100px;
+    
+    
+}
+header{
+    margin-left: 250px;
+}
+section{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+main{
+    margin-left: 300px;
+}
+footer{
+    margin-left: 300px;
+    display: flex;
+}
+
+.logo{
+    width: 150px;
+    padding: 2rem;
+    padding-top: 3rem;
+
+
+}
+h2 {
+    font-size: 80px;
+    color: white;
+    font-family: Outfit;
+    margin-top: 0;
+    line-height: 0.8em;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 0.8em;
+    
+}
+
+h3{
+    font-size: 30px;
+    color: #D20094;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.text{
+    padding-bottom: 50px;
+    line-height: 1.2;
+}
+
+.button {
+    text-align: right;
+    margin-right: 5rem;
+    padding-top: 45px;
+    padding-left: 150px;
+}
+#acceptButton {
+    width: 150px;
+    height: 50px;
+    background-color: #00FFFF;
+    font-family: Outfit;
+    font-weight: bold;
+    color:black;
+    font-size:16px;
+    margin-right: 4rem;
+    box-shadow: 1px 1px 10px 1px #00FFFF, -1px -1px 10px 1px #00FFFF;
+    border: transparent;
+}
+.contenitore{
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 15px;
+}
+#firstCheckbox {
+    margin-top: 4rem;
+    appearance: none;
+    width: 20px; 
+  height: 20px;
+    border: solid 2px white;
+    background-color: transparent;
+    padding-top: 4px;
+    display: flex;
+    
+}
+.checkbox{
+    padding-top: 100px;
+}
+.scritta{
+    padding-top: 65px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+strong{
+    font-weight: bold;
+
+}
